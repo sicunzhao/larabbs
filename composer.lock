@@ -2626,24 +2626,25 @@
         },
         {
             "name": "overtrue/easy-sms",
-            "version": "1.1.15",
+            "version": "1.1.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/overtrue/easy-sms.git",
-                "reference": "b2e7d5bbafb68c27bb767a4ea7c7742b358fcc71"
+                "reference": "b3c16dec37354e24a9dbbb42bef83649a688fc4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/overtrue/easy-sms/zipball/b2e7d5bbafb68c27bb767a4ea7c7742b358fcc71",
-                "reference": "b2e7d5bbafb68c27bb767a4ea7c7742b358fcc71",
+                "url": "https://api.github.com/repos/overtrue/easy-sms/zipball/b3c16dec37354e24a9dbbb42bef83649a688fc4d",
+                "reference": "b3c16dec37354e24a9dbbb42bef83649a688fc4d",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
                 "guzzlehttp/guzzle": "^6.2",
                 "php": ">=5.6"
             },
             "require-dev": {
-                "mockery/mockery": "1.2.2",
+                "mockery/mockery": "1.2.3",
                 "phpunit/phpunit": "^5.7 || ^7.5"
             },
             "type": "library",
@@ -2663,7 +2664,7 @@
                 }
             ],
             "description": "The easiest way to send short message.",
-            "time": "2019-08-01T10:35:17+00:00"
+            "time": "2019-09-12T08:56:35+00:00"
         },
         {
             "name": "overtrue/laravel-lang",

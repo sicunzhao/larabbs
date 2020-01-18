@@ -10,7 +10,7 @@ return [
 
         // 默认可用的发送网关
         'gateways' => [
-            'yunpian',
+            'aliyun',
         ],
     ],
     // 可用的网关配置
@@ -20,6 +20,11 @@ return [
         ],
         'yunpian' => [
             'api_key' => env('YUNPIAN_API_KEY'),
+        ],
+        'aliyun' => [
+            'access_key_id' => env('ALI_ACCESS_KEY_ID'),
+            'access_key_secret' => env('ALI_ACCESS_KEY_SECRET'),
+            'sign_name' => env('ALI_SIGN_NAME'),
         ],
     ],
 ];
